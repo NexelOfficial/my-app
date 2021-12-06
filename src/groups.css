@@ -1,0 +1,25 @@
+@layer components {
+    input {
+        @apply mt-2 mb-2 rounded-md shadow w-full p-1 bg-gray-600 text-white focus:outline-none
+    }
+
+    label {
+        @apply text-white;
+    }
+
+    .button {
+        @apply w-full bg-green-600 cursor-pointer text-center p-2 mt-2 mb-2 rounded-md shadow focus:bg-green-700 text-white
+    }
+
+    .container {
+        @apply bg-gray-700 shadow-xl rounded-2xl p-3 m-auto text-white
+    }
+
+    h1 {
+        @apply text-xl mb-3 text-white
+    }
+
+    h2 {
+        @apply text-lg mb-3 text-white
+    }
+}
